@@ -71,6 +71,7 @@ const checkWinner=()=>{
             console.log("winner",pos1Val)
             showWinner(pos1Val);
             disableBoxes();
+            return;
 
         }
 
